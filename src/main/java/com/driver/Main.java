@@ -4,9 +4,7 @@ public class Main {
 
     public static void main (String [] args){
         B objB = new B();
-        String strB=objB.meth();
-        System.out.println(strB);
-        String strA= objB.meth();
-        System.out.println(strA);
+        objB.meth();
+        objB.meth();
     }
 }
