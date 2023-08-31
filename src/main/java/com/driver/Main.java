@@ -9,9 +9,7 @@ public class Main {
         // Task 5: Call the overridden method from objB of class B
         String resultFromB = objB.meth();
 
-        // Print the results
-        System.out.println(resultFromA);
-        System.out.println(resultFromB);
+        // Print the result
     }
 }
 
