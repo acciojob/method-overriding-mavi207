@@ -10,8 +10,8 @@ public class Main {
         String resultFromB = objB.meth();
 
         // Print the results
-        System.out.println("Result from class A: " + resultFromA);
-        System.out.println("Result from class B: " + resultFromB);
+        System.out.println(resultFromA);
+        System.out.println(resultFromB);
     }
 }
 
@@ -26,6 +26,6 @@ class B extends A {
     // Task 4: Override method meth in class B
     @Override
     public String meth() {
-        return "Method is overridden in Extended class B";
+        return "Method is overridden in Extendend class B";
     }
 }
