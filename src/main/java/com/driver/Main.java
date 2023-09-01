@@ -8,16 +8,17 @@ public class Main {
         B b2=new B();
         b2.meth();
     }
-}
 
-class A {
-    public String meth(){
-        return "Invoking method from class A";
+    public static class A {
+        public String meth(){
+            return "Invoking method from class A";
+        }
     }
-}
-class B extends A {
-    public String meth(){
-        System.out.println(super.meth());
-        return "Invoking method from class A";
+
+    public static class B extends A {
+        public String meth(){
+            System.out.println(super.meth());
+            return "Invoking method from class A";
+        }
     }
 }
